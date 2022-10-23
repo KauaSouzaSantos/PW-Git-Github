@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+/* Logo */
+
+header {
+    width: 100%;
+    height: 10%;
+    background-color: #2498fe93;
+    font-weight: bold;
+    transition-duration: 0.3s;
+    position: relative;
+    text-align: center;
+}
+
+header:hover {
+    background-color: #2498fed2;
+}
+
+header:hover h1 {
+    font-size: 42px;
+}
+
+header:hover img {
+    width: 80%;
+    height: 95%;
+}
+
+header a {
+    margin-left: 7.5%;
+    height: 100%;
+    width: 10%;
+    float: left;
+    display: block;
+    position: absolute;
+    text-align: center;
+}
+
+header a img {
+    padding-top: 2px;
+    width: 75%;
+    height: 90%;
+    transition-duration: 0.3s;
+}
+
+header h1 {
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    padding: 25px 0;
+    float: left;
+    transition-duration: 0.3s;
+}
+
+/* Menu */
+
+nav {
+    background-color: #2498fe65;
+    width: 100%;
+    height: 6%;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li {
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    border-bottom: 1px solid #8257e544;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+nav ul li:hover {
+    border-bottom: 5px solid #8257e596;
+    font-size: 20px;
+    background-color: #2498fe12;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Conteúdos */
+
+.container {
+    width: 100%;
+    height: 76%;
+    transition-duration: 2s;
+}
+
+/* Destaques */
+
+.top-container {
+    width: 100%;
+    height: 45%;
+    padding-left: 15px;
+}
+
+.paisagem {
+    padding-top: 15px;
+    float: left;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+.paisagem img {
+    width: 85%;
+    height: 86%;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.paisagem img:hover {
+    width: 88%;
+    height: 90%;
+    border: 2px solid none;
+}
+
+.paisagem h2 {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 15px 0;
+    text-align: center;
+}
+
+/* Título de Categoria */
+
+.acomodacoes {
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.acomodacoes h2 {
+    font-size: 35px;
+    font-weight: bolder;
+    width: fit-content;
+    margin: auto;
+    transition-duration: 0.2s;
+}
+
+.acomodacoes h2:hover {
+    color: #2498fed2;
+}
+
+/* Quartos */
+
+.bottom-container {
+    width: 100%;
+    height: 50%;
+    padding: 0 20px;
+}
+
+.suite {
+    padding: 30px 0 5px 0;
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.suite-card {
+    margin: auto;
+    height: 100%;
+    width: 95%;
+    transition-duration: 0.5s;
+    transition-delay: 0ms;
+    border: 3px solid transparent;
+    border-radius: 16px;
+}
+
+.suite-card:hover {
+    border: 3px solid #8257e569;
+}
+
+.suite-card:hover .suite-card-img {
+    height: 70%;
+    width: 100%;
+}
+
+.suite-card-img {
+    width: 90%;
+    height: 60%;
+    transition-duration: 0.5s;
+    margin: auto;
+}
+
+.suite img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.suite-card-text {
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    line-height: 15px;
+}
+
+.suite h3 {
+    padding-top: 15px;
+    width: 100%;
+    height: 33%;
+    font-size: 20px;
+    font-weight: 500;
+    transition-duration: 0.3s;
+}
+
+/* .suite h3:hover {
+    font-size: 22px;
+} */
+
+.suite .texto {
+    width: 100%;
+    height: 20%;
+    font-size: 16px;
+    text-align: center;
+    opacity: 0.8;
+    transition-duration: 0.3s;
+}
+
+/* .suite .texto:hover {
+    font-size: 18px;
+} */
+
+.suite .preco {
+    font-weight: bold;
+    width: 100%;
+    height: 44%;
+    font-size: 16px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+
+/* .suite .preco:hover {
+    font-size: 18px;
+} */
+
+/* Rodapé */
+
+footer {
+    border-top: 1px solid #d6bb9769;
+    background-color: #efe1bb9f;
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    transition-duration: 0.2s;
+}
+
+footer:hover {
+    background-color: #E8D3B4;
+}
+
+footer div {
+    padding-top: 28px;
+    width: 95%;
+    height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+footer div p {
+    font-size: 18px;
+    transition-duration: 0.5s;
+    float: left;
+    width: 33%;
+}

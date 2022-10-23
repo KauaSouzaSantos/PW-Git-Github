@@ -1,0 +1,267 @@
+body {
+  background-color: #17a3b831;
+}
+
+.row {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.col {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.collapse ul a {
+  margin: 0 25px;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+
+nav .logo img {
+  transition: 1s;
+  width: 60px;
+}
+
+nav .titulo {
+  margin: 0;
+  margin-left: 5px;
+  border-bottom: 2px solid transparent;
+  transition: 0.6s;
+}
+
+nav .logo:hover img {
+  transform: rotate(20deg);
+}
+
+nav .logo:hover .titulo {
+  border-bottom: 2px solid #01cad4;
+  color: #01cad4;
+}
+
+.nav-ul-container {
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+.nav-a {
+  width: 100%;
+  transition: 1s;
+  font-size: 1.2rem;
+  border-bottom: 2px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 22px;
+}
+
+.nav-a:hover {
+  border-bottom: 2px solid #0683dc;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.actived {
+  border-bottom: 2px solid #0683dc61;
+  color: white !important;
+}
+
+.header-row {
+  transition: 0.5s;
+  padding-top: 10vh;
+}
+
+.header-row .col-12 {
+  border-bottom: 1px solid #dddddd;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.header-row:hover {
+  background-color: #dddddd;
+}
+
+.header-row .col-12:hover {
+  border-color: #0683dc;
+}
+
+.nav-row {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-row .col-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-row .col-6 ul {
+  padding: 10px 0;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  font-size: 1.3rem;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 1px solid #dddddd;
+  border-top: none;
+  transition-duration: 0.5s;
+}
+
+.nav-row .col-6 ul:hover {
+  background-color: #dddddd;
+  border-color: #0683dc;
+}
+
+.nav-row .col-6 ul a {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+/* Images Grid */
+
+.global-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+}
+
+.global-col {
+  border-left: 1px solid pink;
+  border-right: 1px solid pink;
+}
+
+.grid-col {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 12px;
+  gap: 12px;
+  padding-left: 3px;
+}
+
+.grid-card {
+  width: 14rem;
+}
+
+.grid-card a img {
+  filter: brightness(0.8);
+  transition: 0.6s;
+}
+
+.grid-card a img:hover {
+  filter: brightness(1);
+}
+
+.grid-card .card-body {
+  padding: 5px;
+  background-color: #17a3b831;
+}
+
+.image-section-row {
+  margin-top: 8vh;
+}
+
+.image-section-col {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  row-gap: 10px;
+}
+
+.image-section-col a img {
+  height: 100%;
+  filter: brightness(0.6);
+  transition-duration: 1s;
+  width: 100%;
+}
+
+.image-section-col img {
+  filter: brightness(0.6);
+  transition-duration: 1s;
+}
+
+.image-section-col a {
+  height: auto;
+}
+
+.image-section-col img:hover {
+  filter: brightness(1);
+}
+.image-section-col .half {
+  width: 49.5%;
+}
+.image-section-col.max {
+  width: 100%;
+}
+.image-section-col .fourtyf {
+  width: 44.5%;
+}
+.image-section-col .fiftyf {
+  width: 54.5%;
+}
+.image-section-col .fiftys {
+  width: 56%;
+}
+.image-section-col .fourtyt {
+  width: 43%;
+}
+.image-section-col .fiftye {
+  width: 58%;
+}
+.image-section-col .fourtyo {
+  width: 41%;
+}
+
+.sticky-title {
+  position: sticky;
+  top: 10vh;
+  background-color: lightblue;
+  border-radius: 15px;
+  width: max-content;
+  padding: 0 10px;
+}
+
+.slogan-row {
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient {
+  background: rgb(1, 31, 91);
+  background: linear-gradient(
+    135deg,
+    rgba(1, 31, 91, 1) 0%,
+    rgba(26, 31, 113, 1) 25%,
+    rgba(0, 57, 166, 1) 50%,
+    rgba(0, 127, 255, 1) 75%,
+    rgba(172, 225, 175, 1) 100%
+  );
+  color: black;
+  background-clip: text;
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  font-size: 50px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>KL - Contatos</title>
+</head>
+    <body>
+        <div id="menu">
+            <h1>Contato</h1>
+            <div id="main-navbar">
+                <p class="item"> <a href="index.html" class="button">Home</a></p>
+                <p class="item"> <a href="produtos.html" class="button">Produtos</a></p>
+                <p class="item"> <a href="contatos.html" class="button">Contato</a></p>
+            </div>
+        </div>
+
+        <div class="box">
+            <form class="formulario">
+                <div class="label-input">
+                    <label>Nome:</label>
+                    <input type="text" name="txtNome" size="60" maxlength="100" placeholder="Digite seu nome">
+                </div>
+                <div class="label-input">
+                    <label>E-mail:</label>
+                    <input type="email" name="txtEmail" size="30px" placeholder="exemplo@gmail.com">
+                </div>
+                <div class="label-input">  
+                    <label>Telefone:</label>
+                    <input type="tel" name="txtFone" placeholder="(00) 12345-6789">
+                </div>
+                <div class="label-input">
+                    <label>Assunto:</label>
+                    <select>
+                        <option value="0">Escolha uma opção</option>
+                        <option value="1">Dúvida</option>
+                        <option value="2">Sugestão</option>
+                        <option value="3">Reclamação</option>
+                        <option value="4">Outro...</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Descrição:</label>
+                    <textarea name="txtMsg" style="resize: none;"></textarea>
+                </div>
+                <div class="botao-form">
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

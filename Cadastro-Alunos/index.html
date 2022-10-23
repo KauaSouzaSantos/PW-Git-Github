@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro de Aluno</title>
+    </head>
+    <body bgcolor="#EAEAEA">
+        <font face="Arial" size="5px">   
+            <table width="100%" bgcolor="#48D1CC">
+                <tr>
+                    <td>
+                        <font size="4px">
+                            <center>
+                                <h1>Cadastro de Aluno</h1>
+                            </center>
+                        </font>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <div id="info">  
+                <form>
+                    <label>Nome:</label>
+                    <input type="text" name="txtNome" id="txtNome" size="60" maxlength="100" placeholder="Digite seu nome completo, ex: Pedro Carvalho da Silva">
+                    <br>
+                    <label>Data de Nascimento:</label>
+                    <input type="date" name="txtDtNasc" id="txtDtNasc">
+                    <br>
+                    <label>E-mail:</label>
+                    <input type="email" name="txtEmail" id="txtEmail" size="30px" placeholder="exemplo@gmail.com">
+                    <br>
+                    <label>Sexo:</label>
+                    <input type="radio" name="rdSexo" id="rdSexo" value="0"> Masculino
+                    <input type="radio" name="rdSexo" id="rdSexo" value="1"> Feminino
+                    <br>
+                    <label>Telefone:</label>
+                    <input type="tel" name="txtFone" id="txtFone" placeholder="(00) 12345-6789">
+                    <br>
+                    <label>Turma:</label>
+                    <select name="slTurma" id="slTurma">
+                        <option value="0">Selecione uma turma</option>
+                        <option value="1">1° DS A - MTec</option>
+                        <option value="2">1° DS B - MTec</option>
+                        <option value="3">2° DS A - MTec</option>
+                        <option value="4">3° DS A - MTec</option>
+                        <option value="5">1° DS - Modular</option>
+                        <option value="6">2° DS - Modular</option>
+                        <option value="6">3° DS - Modular</option>
+                    </select>
+                    <br>
+                    <label>Endereço:</label>
+                    <input type="text" size="28" name="txtEnd" id="txtEnd" placeholder="Digite o nome da Rua e n° da casa">
+                    <label>Complemento:</label>
+                    <input type="text" maxlength="25" name="txtComps" id="txtComp" placeholder="ex: Apto. 16 Bloco B">
+                    <br>
+                    <label>Cidade:</label>
+                    <input type="text" size="25">
+                    <label>UF:</label>
+                    <select name="slUF" id="slUF">
+                    <option value="0">Selecione a UF</option>
+                    <option value="1">SP</option>
+                    <option value="2">RJ</option>
+                    <option value="3">ES</option>
+                    <option value="4">MG</option>
+                    <option value="5">MT</option>
+                    </select>
+                    <br>
+                    <label>Foto:</label>
+                    <input type="file" name="foto" id="foto">
+                    <br>
+                    <label>Senha do NSA:</label>
+                    <input type="password" name="txtSenha" id="txtSenha">
+                    <label>Confirmar senha:</label>
+                    <input type="password" name="txtSenha" id="txtSenha">
+                    <br>
+                    <label>Atividades Extracurriculares disponíveis:</label>
+                    <br>
+                    <input type="checkbox" name="ckCLeitura" id="ckCLeitura"> Clube de Leitura
+                    <br>
+                    <input type="checkbox" name="ckEsportes" id="ckEsportes"> Esportes
+                    <br>
+                    <input type="checkbox" name="ckRobotica" id="ckRobotica"> Robótica
+                    <br>
+                    <input type="checkbox" name="ckXadrez" id="ckXadrez"> Xadrez
+                    <br>
+                    <input type="checkbox" name="ckOutro" id="ckOutro"> Outro, qual?
+                    <input type="text" name="txtOutro" id="txtOutro" size="20" maxlength="30">
+                    <br>
+                    <label>Sugestões:</label>
+                    <br>
+                    <textarea name="txtMsg" id="txtMsg" rows="8" cols="54" 
+                    placeholder="Deixe aqui suas sugestões relacionadas a escola, ex: Gostaria de mais opções de Atividades Extracurriculares."></textarea>
+                    <br>
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </font>  
+    </body>
+</html>
